@@ -1,0 +1,152 @@
+#PoD h1{
+	color: #0099ff;
+	font-weight: 300;
+	text-align: center;
+	font-size: 5em;
+	margin-top: 100px;
+}
+#PoD h4{
+	margin-top: 30px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+#PoD{
+	background-color: black;
+	border-top: 1px solid #0099ff;
+}
+#rhythm{
+	height: 600px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('img/rhythm.jpg');
+}
+#rhythmBox hr{
+	border-color: white;
+}
+#emphasis{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b0987+0,952aaa+99 */
+background: #6b0987; /* Old browsers */
+background: -moz-linear-gradient(top,  #6b0987 0%, #952aaa 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #6b0987 0%,#952aaa 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #6b0987 0%,#952aaa 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b0987', endColorstr='#952aaa',GradientType=0 ); /* IE6-9 */
+
+}
+#emphasis img{
+	display: block;
+	margin: 50px auto;
+}
+#emphasis hr{
+	border-color: #EFADFF;
+}
+#contrastBox{
+	/*background-color: rgba(51, 111, 131, 0.5);*/
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 60px 60px 300px 60px;
+}
+#contrastBox hr{
+	border-color: white;
+}
+#contrastBox p{
+	font-weight: 400;
+}
+#contrast{
+	padding-top: 0;
+	height: 550px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('img/contrast.jpg');
+}
+#unity{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-image: url('img/unity.jpg');
+}
+#unityBox{
+	margin-top: 50px;
+	background-color: black;
+	padding: 10px;
+}
+#unity hr{
+	border-color: #39a4b5;
+	border-width: 1px;
+}
+#repetition{
+	height: 600px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url('img/repetition.jpg');
+}
+#repetition h1, #repetition h2, #repetition p{
+	color: #505050;
+}
+#repetition hr{
+	border-color: #505050;
+}
+#repetition p{
+	font-weight: 400;
+}
+#repetition h2{
+	margin-bottom: 50px;
+}
+#scale{
+	background-color: white;
+}
+#scale h1, #scale h2, #scale p{
+	color: #505050;
+}
+#scale .container img{
+	height: 200px;
+	display: block;
+	margin: auto;
+}
+#balanceBox{
+	/*background-color: rgba(51, 111, 131, 0.5);*/
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 60px 60px 300px 60px;
+}
+#balanceBox hr{
+	border-color: white;
+}
+#balancebox p{
+	font-weight: 400;
+}
+#balance{
+	padding-top: 0;
+	max-height: 550px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url('img/balance.jpg');
+}
+#balance table{
+	width: 100%;
+	border-collapse: collapse;
+}
+#borderRight{
+	border-right: 1px solid white;
+	text-align: right;
+}
+#balance td, #balance th{
+	padding: 15px;
+	width: 50%;
+	font-weight: 400;
+	vertical-align: top;
+}
+#balance th{
+	border-bottom: 1px solid white;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-align: center;
+}

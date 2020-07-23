@@ -1,0 +1,113 @@
+$functionButton: cadetblue;
+$numberButton: #ebebeb;
+$blackButton: dimgray;
+
+* {
+    transition: .35s;
+}
+
+#mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.noScroll{
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+}
+
+.body {
+    
+    [class^="col-"] {
+        border: 2px solid white;
+        padding: 20px;
+        font-size: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .func {
+        background-color: $functionButton;
+        color: white;
+        font-weight: bold;
+        &:hover {
+            background-color: darken($functionButton, 8%);
+        }
+    }
+    .selected {
+        background-color: darken($functionButton, 16%);
+        &:hover{
+            background-color: darken($functionButton, 16%);
+        }
+    }
+
+    .num {
+        background-color: $numberButton;
+        &:hover {
+            background-color: darken($numberButton, 8%);
+        }
+    }
+
+    .black {
+        background-color: $blackButton;
+        color: white;
+        &:hover {
+            background-color: darken($blackButton, 8%);
+        }
+    }
+
+    #answer {
+        background-color: white;
+        border: 3px solid $blackButton;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        text-align: right;
+    }
+}
+
+#leftNav {
+    float: left;
+    background-color: $functionButton;
+    min-width: 300px;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -248px;
+    overflow: hidden;
+    z-index: 20;
+
+    &.open {
+        left: 0;
+        overflow: auto;
+    }
+
+    span {
+        background-color: $blackButton;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        &:hover {
+            background-color: darken($blackButton, 8%);
+            cursor: pointer;
+        }
+    }
+
+    li {
+        padding: 15px;
+        &:hover {
+            background-color: darken($functionButton, 8%);
+        }
+    }
+    small{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+}

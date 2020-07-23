@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/ef7f49ea07.js"></script>
+</head>
+
+<body>
+    <div id="mask" class="hidden"></div>
+    <div id="leftNav">
+        <div class="row">
+            <div class="col-xs-9">
+                <ul class="list-unstyled">
+                    <li>Simple Calculator</li>
+                    <li>Dividing with Remainders</li>
+                    <li>Tax Calculator</li>
+                    <li>Simple Calculator</li>
+                    <li>Dividing with Remainders</li>
+                    <li>Tax Calculator</li>
+                </ul>
+            </div>
+            <div class="col-xs-3">
+                <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="container body" style="padding: 30px 0;">
+        <div class="row" style="max-width: 400px; margin: 0 auto;">
+            <div class="col-xs-12" id="answer">
+                0
+            </div>
+            <div class="col-xs-3 num" id="7">
+                7
+            </div>
+            <div class="col-xs-3 num" id="8">
+                8
+            </div>
+            <div class="col-xs-3 num" id="9">
+                9
+            </div>
+            <div class="col-xs-3 func" id="add">
+                &plus;
+            </div>
+            <div class="col-xs-3 num" id="4">
+                4
+            </div>
+            <div class="col-xs-3 num" id="5">
+                5
+            </div>
+            <div class="col-xs-3 num" id="6">
+                6
+            </div>
+            <div class="col-xs-3 func" id="subtract">
+                &minus;
+            </div>
+            <div class="col-xs-3 num" id="1">
+                1
+            </div>
+            <div class="col-xs-3 num" id="2">
+                2
+            </div>
+            <div class="col-xs-3 num" id="3">
+                3
+            </div>
+            <div class="col-xs-3 func" id="multiply">
+                &times;
+            </div>
+            <div class="col-xs-6 num" id="0">
+                0
+            </div>
+            <div class="col-xs-3 num" id="point">
+                .
+            </div>
+            <div class="col-xs-3 func" id="divide">
+                &divide;
+            </div>
+            <div class="col-xs-6 black" id="clear">
+                clear
+            </div>
+            <div class="col-xs-6 black" id="equals">
+                &equals;
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <script src="js/calc2.js"></script>
+    <script src="js/leftNav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'digi';
+	src: url('DS-DIGII.TTF');
+}
+
+body {
+  background-color: #2D2D2D;
+
+}
+.navbar-brand img{
+	position: relative;
+	top: -35px;
+}
+ #footerModal{
+  	float: left !important;
+  }
+
+.container{
+	max-width: 800px;
+}
+
+#noMargin{
+	padding: 0;
+}
+#timerFunc{
+	font-family: 'digi' sans-serif;
+}
+#timer, #scores{
+	background-color: white;
+	color: #2d2d2d;
+	width: 100%;
+}
+#timer table, #scores table{
+	width: 100%;
+	height: 100%;
+}
+#timer table tr td, #scores table tr td{
+	border: 1px solid grey;
+	text-align: center;
+	vertical-align: top;
+	padding: 5px 0;
+}
+#timeBox{
+	width: 80%;
+}
+#timer button{
+	font-size: 4em;
+	width: 50%;
+	background-color: white;
+}
+.red{
+	border: solid red 3px;
+	color: red;
+}
+.green{
+	border: solid green 3px;
+	color: green;
+}
+
+#scores table{
+	border: 1px solid grey;
+}
+#scores table tr th{
+	text-align: center;
+	padding: 5px 0;
+	font-size: 120%;
+	background-color: lightgrey;
+	text-transform: uppercase;
+}
+#scores table tr td{
+	font-size: 3em;
+	font-family: 'digi' sans-serif;
+}
+.score{
+	width: 40%;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+#stats table{
+	width: 100%;
+	background-color: white;
+}
+#stats table th{
+	width: 50%;
+	text-align: center;
+	padding: 5px;
+	font-size: 122%;
+	border-bottom: 1px solid grey;
+	background-color: lightgrey;
+	text-transform: uppercase;
+}
+#stats table td{
+	text-align: center;
+	padding-top: 5px;
+}
+#h1, #v1, #h2, #v2, #v3, #h3{
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

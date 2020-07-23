@@ -1,0 +1,106 @@
+/* line 5, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+* {
+  transition: .35s; }
+
+/* line 9, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+#mask {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10; }
+
+/* line 19, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+.noScroll {
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+/* line 26, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+.body [class^="col-"] {
+  border: 2px solid white;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+  cursor: pointer; }
+
+/* line 34, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+.body .func {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold; }
+  /* line 38, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  .body .func:hover {
+    background-color: #508586; }
+
+/* line 42, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+.body .selected {
+  background-color: #416b6d; }
+  /* line 44, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  .body .selected:hover {
+    background-color: #416b6d; }
+
+/* line 49, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+.body .num {
+  background-color: #ebebeb; }
+  /* line 51, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  .body .num:hover {
+    background-color: #d7d7d7; }
+
+/* line 56, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+.body .black {
+  background-color: dimgray;
+  color: white; }
+  /* line 59, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  .body .black:hover {
+    background-color: #555555; }
+
+/* line 64, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+.body #answer {
+  background-color: white;
+  border: 3px solid dimgray;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: right; }
+
+/* line 73, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+#leftNav {
+  float: left;
+  background-color: cadetblue;
+  min-width: 300px;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -248px;
+  overflow: hidden;
+  z-index: 20; }
+  /* line 85, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  #leftNav.open {
+    left: 0;
+    overflow: auto; }
+  /* line 90, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  #leftNav span {
+    background-color: dimgray;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px; }
+    /* line 96, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+    #leftNav span:hover {
+      background-color: #555555;
+      cursor: pointer; }
+  /* line 102, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  #leftNav li {
+    padding: 15px; }
+    /* line 104, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+    #leftNav li:hover {
+      background-color: #508586; }
+  /* line 108, /Users/nathan/Box Sync/00_PersonalStuff/Portfolio/Projects/GitHub/calculator/style/style.scss */
+  #leftNav small {
+    position: absolute;
+    bottom: 10px;
+    left: 10px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,213 @@
+.modal-text-color{
+	color: #333333;
+}
+  #footerModal{
+  	float: left !important;
+  	font-size: 50%;
+  }
+/*......................................................................*/
+#podHead{
+	color: #0099ff;
+	border-bottom: 1px solid #0099ff;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+#eodHead{
+	color: #ff33ff;
+	border-bottom: 1px solid #ff33ff;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}	
+#intro th{
+	padding: 20px;
+	text-align: center;
+}
+#intro table{
+	border-collapse: collapse;
+	width: 100%;
+}
+#intro{
+	padding: 50px 0;
+	background-image: url("img/intro.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -50px;
+}
+#intro img{
+	margin: 0 auto;
+	height: 20px;
+	width: 200px;
+}
+
+#intro td ul{
+	height: 15em;
+	vertical-align; bottom;
+}	
+
+	
+		*{
+			margin: 0;
+			font-family: 'Roboto', sans-serif;
+			padding: 0;
+			color: white;
+			font-weight: 300;
+		}
+		
+		html, body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,7d7e7d+100 */
+background: #0e0e0e; /* Old browsers */
+background: -moz-linear-gradient(top,  #0e0e0e 0%, #7d7e7d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0e0e0e 0%,#7d7e7d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0e0e0e 0%,#7d7e7d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
+
+		}
+		
+		#container{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,7d7e7d+100 */
+background: #0e0e0e; /* Old browsers */
+background: -moz-linear-gradient(top,  #0e0e0e 0%, #7d7e7d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0e0e0e 0%,#7d7e7d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0e0e0e 0%,#7d7e7d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
+
+		}
+
+	.container{
+		width: 80%;
+		max-width: 810px;
+		min-width: 520px;
+		margin: 0 auto;
+		padding-right: 10px;
+	}
+	.container h1{
+		text-align: center;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+	.container h2{
+	font-weight: 300;
+	text-align: center;
+	margin: 10px;
+	}
+	.container hr{
+		border: 1px solid #444444;
+	}
+	.box{
+		padding: 50px 0;
+		min-height: 400px;
+	}
+	.box h1{
+		font-size: 2.5em;
+	}
+	
+	#footer{
+		background-color: #0e0e0e;
+		border-top: 1px solid red;
+		padding: 20px;
+	}
+#footer p img{
+	zoom: 50%;
+}
+	.listPE li{
+		border: 1px solid white;
+		border-radius: 10px;
+		width: 7em;
+		text-align: center;
+		list-style-type: none;
+		text-align: center;
+		padding: 5px;
+		font-size: 1.2em;
+		margin: auto;
+		margin-top: 5px;
+		background-color: black;
+	}
+	.listPE li a{
+		color: white;
+	}
+	.listPE a:visited{
+		color: white;
+	}
+	.listPE a:hover{
+		text-decoration: none;
+	}
+	.listPE a:hover li{
+		background-color: white;
+		color: black;
+		font-weight: 400;
+	}
+
+
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.9);
+		opacity: 0.9;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.9;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.9;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.9;	
+	}			
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

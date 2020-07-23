@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="docs/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Scoreboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="docs/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Scoreboard</a>
+        </div>
+        <div id="navbar" class="navbar-collapse navbar-right collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" data-toggle="modal" data-target="#ngModal">New Game</a></li>
+            <li><a href="#">Email Stats</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal" >Help</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#aboutModal" >About</a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li>-->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    					<!-- About Modal -->
+						<div id="aboutModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Scoreboard by Ventura9</h4>
+							  </div>
+							  <div class="modal-body">
+								<p>This is a project I thought up one day when I was playing a pickup game of basketball. I wondered if I would be able to make a scoreboard that users can pull up on their phone and keep track of the points in a user friendly way. I decided what would work best is to have a check box next to the associated point when a basket was made. I decided that I would make it one step further and keep percentages of baskets made per team. On the inside of each check box there is a 'x' box saying that the attempt was missed. Below the buttons there is an easy to read percentage.</p><br>
+								<p>This simple idea of mine has proven to be more complicated the more I get into it. I am learning how important it is to keep JavaScript code well organized. I find it harder to follow my code now than I did before. This has been a big project so far, and I started it to teach myself JavaScript. Now I am a couple months down the road and have taken a stab at jQuery, and think that if I were to do this again I would focus a lot on using jQuery. At first it scared me, but now I believe it would have made the code cleaner, faster, and easier to use. Again for this app, I used the Bootstrap CSS Framework.</p><hr>
+								<p>This website took about 30 hours to create</p>
+							  </div>
+							  <div class="modal-footer">
+							  	<p id="footerModal">Ventura9 by Nathan Blaylock</p>
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+							  </div>
+							</div>
+
+						  </div>
+						</div>
+    
+    <!-- Modal for HELP -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="myModalLabel">Instructions</h4>
+		  </div>
+		  <div class="modal-body">
+			Click on the timer to start and stop the time.
+			<p>check the corresponding points that fits in with the score bla bla</p>
+			<p>Email stats in the menu for emailing you the scores and the stats</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Modal for NEW GAME -->
+    <div class="modal fade" id="ngModal" tabindex="-1" role="dialog" aria-labelledby="ngModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="myModalLabel">New Game Menu</h4>
+		  </div>
+		  <div class="modal-body">
+			
+			<form class="form-horizontal" role="form">
+			  <div class="form-group">
+				<label class="control-label col-sm-3" for="homeName">Home Name:</label>
+				<div class="col-sm-9">
+				  <input type="text" class="form-control" id="homeName" placeholder="Daisies">
+				</div>
+			  </div>
+			  <div class="form-group">
+				<label class="control-label col-sm-3" for="visitorName">Visitor Name:</label>
+				<div class="col-sm-9"> 
+				  <input type="text" class="form-control" id="visitorName" placeholder="Raptors">
+				</div>
+			  </div>
+			  
+			  <hr>
+			  
+			  <div class="form-group">
+				<label class="control-label col-sm-3" for="setMinutes">Minutes:</label>
+				<div class="col-sm-9"> 
+				  <input type="number" min="0" max="60" class="form-control" onkeypress="return isNumberKey(event)" id="setMinutes" placeholder="20">
+				</div>
+			  </div>
+			  <div class="form-group">
+				<label class="control-label col-sm-3" for="setSeconds">Seconds:</label>
+				<div class="col-sm-9"> 
+				  <input type="number" min="0" max="59" class="form-control" onkeypress="return isNumberKey(event)" id="setSeconds" placeholder="00">
+				</div>
+			  </div>
+			</form>
+		  
+		  </div>
+		  <div class="modal-footer">
+		  	<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+			<button type="button" class="btn btn-primary" data-dismiss="modal" onclick="newGame()">New Game</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+    <div class="container" id="noMargin">
+
+      <div id="content">
+		
+		<div id="timer">
+			<table>
+				<tr>
+					<td><span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span></td>
+					<td id="timeBox"><button id="buttonBorder" class="red stop"><div id="timerFunc"><span id="minutes">00</span>:<span id="seconds">13</span></div></button></td>
+					<td><span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></td>
+				</tr>
+			</table>
+		</div>
+      	
+      	<br>
+      	
+      	<div id="scores">
+      		<table>
+      			<tr><th class="score" id="HSB">HOME</th><th>pd</th><th class="score" id="VSB">VISITOR</th></tr>
+      			<tr><td id="homeScore">0</td><td id="period">4</td><td id="visitorScore">0</td></tr>
+      		</table>
+      	</div>
+      	
+      	<br>
+      	
+      	<div id="buttons">
+      	
+			<div class="btn-group btn-group-justified">
+				<a style="border-bottom-left-radius: 0;" class="btn btn-lg btn-success" onclick="home(1)"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+				<a class="btn btn-lg btn-danger" onclick="homeStat1(false, 1)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+				<a class="btn btn-lg btn-primary">1pt</a>
+				<a class="btn btn-lg btn-danger" onclick="visitStat1(false, 1)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+				<a style="border-bottom-right-radius: 0;" class="btn btn-lg btn-success" onclick="visit(1)"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+			</div>
+			
+			<div class="btn-group btn-group-justified">
+				<a style="border-radius: 0;" class="btn btn-lg btn-success" onclick="home(2)"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+				<a class="btn btn-lg btn-danger" onclick="homeStat1(false, 2)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+				<a class="btn btn-lg btn-primary">2pt</a>
+				<a class="btn btn-lg btn-danger" onclick="visitStat1(false, 2)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+				<a style="border-radius: 0;" class="btn btn-lg btn-success" onclick="visit(2)"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+			</div>
+			
+			<div class="btn-group btn-group-justified">
+				<a style="border-top-left-radius: 0;" class="btn btn-lg btn-success" onclick="home(3)"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+				<a class="btn btn-lg btn-danger" onclick="homeStat1(false, 3)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+				<a class="btn btn-lg btn-primary">3pt</a>
+				<a class="btn btn-lg btn-danger" onclick="visitStat1(false, 3)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+				<a style="border-top-right-radius: 0;" class="btn btn-lg btn-success" onclick="visit(3)"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></a>
+			</div>
+			
+			<!-- <div class="btn-group btn-group-justified">
+				<a class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></a>
+				<a class="btn btn-lg btn-primary">Foul</a>
+				<a class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></a>
+			</div>   --> 
+			  
+      	</div>
+      	
+      	<br>
+      	
+      	<div id="stats">
+      	
+      		<table>
+      		
+      			<tr><th>Home Stats</th><th>Visitor Stats</th></tr>
+      			<tr><td><strong>Free Throw</strong</td><td><strong>Free Throw</strong</td></tr>
+      			<tr><td id="h1">N/A</td><td id="v1">N/A</td></tr>
+      			<tr><td><strong>2-pt Field Goal</strong</td><td><strong>2-pt Field Goal</strong</td></tr>
+      			<tr><td id="h2">N/A</td><td id="v2">N/A</td></tr>
+      			<tr><td><strong>3-pt Field Goal</strong</td><td><strong>3-pt Field Goal</strong</td></tr>
+      			<tr><td id="h3">N/A</td><td id="v3">N/A</td></tr>
+      		
+      		</table>	
+      	
+      	</div>
+      	
+      	<div id="stats">
+      	</div>
+      
+      </div>
+
+    </div> <!-- /container -->
+    <p style="text-align: center"><a href="http://ngblaylock.weebly.com/website.html"><img src="LogoMark.png"/></a></p>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="scoreboard.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
