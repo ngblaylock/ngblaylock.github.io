@@ -1,0 +1,118 @@
+.secret-link{
+    opacity: 0.0;
+}
+.secret-link:hover{
+    opacity: 0.1;
+    cursor: default;
+}
+.bg-red{
+    background-color: #f7f0ea;
+}
+img {
+    width: 100%;
+    max-width: 400px;
+    border: solid 1px lightgrey;
+}
+
+.year {
+    padding: 5px 20px;
+}
+
+.red {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ce4e27+0,c42929+100 */
+    background: #ce4e27;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ce4e27 0%, #c42929 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ce4e27 0%, #c42929 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ce4e27 0%, #c42929 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ce4e27', endColorstr='#c42929', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    color: white;
+    -webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    -ms-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+}
+
+.yr2019 .col-sm-4{
+ margin-bottom: 30px;
+}
+
+.yr2019 .col-sm-4 img{
+    display: block; 
+    margin: 0 auto;
+}
+
+.jumbotron a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.jumbotron a:hover {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.jumbotron{
+    margin-bottom: 0;
+}
+
+.selected {
+    color: white !important;
+    border-bottom: 2px solid white;
+}
+
+.border-rt{
+    border-right: 2px solid grey !important;
+}
+
+.yr-link > div{
+    transition: .2s;
+}
+.yr-link p{
+    padding: 10px;
+}
+
+.yr-link > div:hover{
+    transition: .2s;
+}
+.yr-link img{
+    padding: 10px;
+    transition: .2s;
+}
+
+.yr > .row{
+    border-top: 4px solid lightgray;
+}
+.yr > .row:first-child{
+    border-top: none;
+}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+    .border-rt{
+        border-right: none !important;
+    }
+}
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {}
