@@ -1,0 +1,36 @@
+@media print {
+  .app-print-hide {
+    display: none !important;
+  }
+
+  .app-print-full {
+    margin: 0 auto;
+    max-width: 100%;
+    flex: 1 1 100%;
+    .card-header{
+      border-radius: 3px 3px 0 0;
+    }
+    .app-print-inline{
+      display: inline !important;
+    }
+    .bg-light{
+      background-color: white !important;
+    }
+    .collapse{
+      display: block !important;
+    }
+    .fa-caret-down.text-secondary{
+      display: none;
+    }
+    .category-color{
+      width: auto;
+    }
+  }
+
+  footer {
+    display: none;
+  }
+  @page {
+    margin: 1in 1in;
+  }
+}
